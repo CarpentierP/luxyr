@@ -1,1 +1,43 @@
-<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Luxyr</title></head><body><h1>Page Luxyr</h1></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxyr - Contact</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+<link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+<header class="header">
+    <div class="logo">Luxyr</div>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+    <button class="menu-toggle">☰</button>
+</header>
+
+<main class="contact-page container">
+    <h1>Contactez-nous</h1>
+    <form id="contactForm">
+        <label>Nom</label>
+        <input type="text" placeholder="Votre nom" required>
+        <label>Email</label>
+        <input type="email" placeholder="Votre email" required>
+        <label>Message</label>
+        <textarea placeholder="Votre message" rows="5" required></textarea>
+        <button type="submit" class="btn primary">Envoyer</button>
+    </form>
+</main>
+
+<footer>
+    <p>© 2025 Luxyr. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
